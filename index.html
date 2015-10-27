@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>ISSUE TRACKER</title>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.10/angular-ui-router.js"></script>
+<script src="app.js"></script>
+</head>
+<body ng-app="IssueTracker">
+	<h1>WELCOME TO ISSUE TRACKER 1.0</h1>
+	<div ng-repeat="project in projects">
+		{{project.project_name}}
+	</div>
+	</br>
+	</br>
+	<a href="/IssueTracker/newproject.html">CREATE A NEW PROJECT</a>
+	</br>
+	</br>
+	<a href="file:///home/varun/ssad/assign2/IssueTracker/projectlist.html">VIEW YOUR EXISTING PROJECTS</a>
+	
+</body>
+</html>
+

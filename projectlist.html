@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>YOUR PROJECT LIST</title>
+</head>
+<body ng-app="IssueTracker" ng-controller="ProjectListCtrl">
+	<p>WELCOME TO YOUR PROJECTS</p>
+	<div ng-repeat="project in projects">
+		<ol>
+			{{project.project_name}}
+		</ol>
+	</div>
+</body>
+</html>
